@@ -27,10 +27,10 @@
         <file name="patron-world-eater.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/patron-world-eater.xml" />
         <file name="patron-deceiver.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/patron-deceiver.xml" />
         <file name="patron-genie.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/patron-genie.xml" />
-        <file name="patron-moon.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/patron-moon.xml" /> -->
+        <file name="patron-moon.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/patron-moon.xml" />
 
 		<file name="spells.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/spells.xml" />
-        <file name="chained-companions.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/chained-companions.xml" />
+        <file name="chained-companions.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/chained-companions.xml" /> -->
 		<file name="warlock-remastered-invocations.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/master/warlock-remastered-invocations.xml" />
 	</files>
 </index>
