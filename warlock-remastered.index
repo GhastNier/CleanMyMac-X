@@ -5,14 +5,14 @@
 		<description>A new take on the Warlock.</description>
 		<author url="https://www.gmbinder.com/profile/drognbork">DrognBork</author>
 		<update version="1.0.0">
-			<file name="warlock-remastered.index" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/warlock-remastered.index" />
+			<file name="warlock-remastered.index" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/master/warlock-remastered.index" />
 		</update>
 	</info>
 	<files>
 		<!--- <file name="source.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/source.xml" /> -->
 
         <!-- classes -->
-		<file name="warlock-remastered.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/warlock-remastered.xml" />
+		<file name="warlock-remastered.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/master/warlock-remastered.xml" />
 
         <!-- patrons
 		<file name="patron-archfey.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/patron-archfey.xml" />
@@ -31,6 +31,6 @@
 
 		<file name="spells.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/spells.xml" />
         <file name="chained-companions.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/chained-companions.xml" />
-		<file name="warlock-remastered-invocations.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/warlock-remastered-invocations.xml" />
+		<file name="warlock-remastered-invocations.xml" url="https://raw.githubusercontent.com/GhastNier/warlock-remastered/master/warlock-remastered-invocations.xml" />
 	</files>
 </index>
