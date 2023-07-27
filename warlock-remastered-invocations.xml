@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>The Warlock Remastered</name>
+        <update version="0.0.1">
+            <file name="warlock-remastered-invocation.xml"/>
+        </update>
+    </info>
+
+    <!-- Eldritch Invocations -->
+    <element name="All Else Equal" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ALL_ELSE_EQUAL">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level, Pact of the Blade</prerequisite>
+        <requirements>[level:7],ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+        <description>
+            <p>
+                <em>Prerequisite: 7th level, Pact of the Blade</em>
+            </p>
+            <p>Whenever you cast a spell with the word “smite” in the name, you can choose to have it function with
+                cantrips that require an attack roll, and any weapon attack, rather than only melee weapon attacks. A
+                cantrip benefiting from a “smite” spell deals damage as if a 1st-level character had cast it.
+            </p>
+        </description>
+        <sheet>
+            <description>Whenever you cast a spell with the word “smite” in the name, you can choose to have it function
+                with cantrips that require an attack roll, and any weapon attack, rather than only melee weapon attacks.
+                A cantrip benefiting from a “smite” spell deals damage as if a 1st-level character had cast it.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Armor of Shadows" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ARMOR_OF_SHADOWS">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can cast <em>mage armor</em> on yourself at will, without expending a spell slot or material
+                components.
+            </p>
+        </description>
+        <sheet>
+            <description>You can cast mage armor on yourself at will, without expending a spell slot or material
+                components.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Ascendant Step" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ASCENDANT_STEP">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>
+                <em>Prerequisite: 9th level</em>
+            </p>
+            <p>You can cast <em>levitate</em> on yourself at will, without expending a spell slot or material
+                components.
+            </p>
+        </description>
+        <sheet>
+            <description>You can cast levitate on yourself at will, without expending a spell slot or material
+                components.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Aspect of the Moon" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ASPECT_OF_THE_MOON">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Pact of the Tome</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_TOME</requirements>
+        <description>
+            <p>You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long
+                rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping
+                watch.
+            </p>
+        </description>
+        <sheet>
+            <description>You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of
+                a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and
+                keeping watch.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Awakened Weapon" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_AWAKENED_WEAPON">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Archfey patron, Pact of the Blade</prerequisite>
+        <requirements>ID_WOTC_PHB_ARCHETYPE_OTHERWORLDLY_PATRON_THE_ARCHFEY</requirements>
+        <description>
+            <p>You can choose to create a weapon from polished black wood and wicked spines using your Pact of the Blade
+                feature. While you maintain concentration on a spell cast using a warlock spell slot while wielding this
+                weapon, dense foliage covers your skin, causing your AC to equal 17 if it would normally be lower.
+            </p>
+        </description>
+        <sheet>
+            <description>You can choose to create a weapon from polished black wood and wicked spines using your Pact of
+                the Blade feature. While you maintain concentration on a spell cast using a warlock spell slot while
+                wielding this weapon, dense foliage covers your skin, causing your AC to equal 17 if it would normally
+                be lower.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Beast Speech" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_BEAST_SPEECH">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can cast <em>speak with animals</em> at will, without expending a spell slot.
+            </p>
+        </description>
+        <sheet>
+            <description>You can cast speak with animals at will, without expending a spell slot.</description>
+        </sheet>
+    </element>
+    <element name="Beguiling Influence" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_BEGUILING_INFLUENCE">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You gain proficiency in the Deception and Persuasion skills. If you are already proficient with either or
+                both of those skills, your proficiency bonus is doubled for any ability check you make that uses that
+                proficiency.
+            </p>
+        </description>
+        <sheet>
+            <description>You gain proficiency in the Deception and Persuasion skills. If you are already proficient with
+                either or both of those skills, your proficiency bonus is doubled for any ability check you make that
+                uses that proficiency.
+            </description>
+        </sheet>
+    </element>
+    <element name="Bewitching Whispers" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_BEWITCHING_WHISPERS">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
+        <description>
+            <p>You can cast <em>compulsion</em> once without using a warlock spell slot. You can't do so again until you
+                finish a long rest.
+            </p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_COMPULSION"/>
+            </div>
+        </description>
+        <sheet>
+            <description>You can cast compulsion once without using a warlock spell slot. You can't do so again until
+                you finish a long rest.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_COMPULSION"/>
+        </rules>
+    </element>
+
+    <element name="Blade Empowerment" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_BLADE_EMPOWERMENT">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Pact of the Blade</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+        <description>
+            <p>As a bonus action, you can empower your pact weapon with eldritch energy. The first time you hit a
+                creature with an empowered pact weapon before the start of your next turn, it takes additional force
+                damage equal to half your warlock level and if the attack was a critical hit, the target is knocked
+                prone.
+            </p>
+        </description>
+        <sheet>
+            <description>As a bonus action, you can empower your pact weapon with eldritch energy. The first time you
+                hit a creature with an empowered pact weapon before the start of your next turn, it takes additional
+                force damage equal to half your warlock level and if the attack was a critical hit, the target is
+                knocked prone.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Bond of the Chain Master" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_BOND_OF_THE_CHAIN_MASTER">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Pact of the Chain feature</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
+        <description>
+            <p>Whenever you cast a warlock spell that targets you or has a range of self, you can have the spell also
+                target your familiar if it is within 100 feet of you. Additionally, you can cast warding bond once on
+                your familiar without expending a spell slot. You regain the ability to do so when you finish a long
+                rest.
+            </p>
+        </description>
+        <sheet>
+            <description>Whenever you cast a warlock spell that targets you or has a range of self, you can have the
+                spell also target your familiar if it is within 100 feet of you. Additionally, you can cast warding bond
+                once on your familiar without expending a spell slot. You regain the ability to do so when you finish a
+                long rest.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Captured Heart" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_CAPTURED_HEART">
+        <supports>Eldritch Invocation</supports>
+
+        <description>
+            <p>You gain advantage on attack rolls targeting creatures that you have charmed. If you attack a creature
+                you have charmed, it can’t take reactions until the end of your next turn.
+            </p>
+        </description>
+        <sheet>
+            <description>You gain advantage on attack rolls targeting creatures that you have charmed. If you attack a
+                creature you have charmed, it can’t take reactions until the end of your next turn.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Chains of Carceri" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_CHAINS_OF_CARCERI">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>15th level, Pact of the Chain</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
+        <description>
+            <p>You can cast <em>hold monster</em> at will—targeting a celestial, fiend, or elemental — without expending
+                a spell slot or material components. You must finish a long rest before you can use this invocation on
+                the same creature again.
+            </p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_HOLD_MONSTER"/>
+            </div>
+        </description>
+        <sheet>
+            <description>You can cast hold monster at will—targeting a celestial, fiend, or elemental — without
+                expending a spell slot or material components. You must finish a long rest before you can use this
+                invocation on the same creature again.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HOLD_MONSTER"/>
+        </rules>
+    </element>
+    <element name="Improved Pact Weapon" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_IMPROVED_PACT_WEAPON">
+        <supports>Eldritch Invocation</supports>
+
+        <description>
+            <p>Any weapon you summon with your Pact of the Blade feature gains a +1 bonus to its attack and damage
+                rolls, unless it is a magic weapon that already has a bonus to those rolls. At 9th level, this bonus
+                increases to +2, and at 15th level, +3.
+            </p>
+        </description>
+        <sheet>
+            <description>Any weapon you summon with your Pact of the Blade feature gains a +1 bonus to its attack and
+                damage rolls, unless it is a magic weapon that already has a bonus to those rolls. At 9th level, this
+                bonus increases to +2, and at 15th level, +3.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Cloak of Flies" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_CLOAK_OF_FLIES">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura
+                extends 5 feet from you in every direction, but not through total cover. It lasts until you're
+                incapacitated or you dismiss it as a bonus action. The aura grants you advantage on Charisma
+                (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its
+                turn in the aura takes poison damage equal to your warlock spellcasting ability modifier (minimum of 1
+                damage).
+            </p>
+        </description>
+        <sheet>
+            <description>As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies.
+                The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're
+                incapacitated or you dismiss it as a bonus action. The aura grants you advantage on Charisma
+                (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its
+                turn in the aura takes poison damage equal to your warlock spellcasting ability modifier (minimum of 1
+                damage).
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Curse Bringer" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_CURSE_BRINGER">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Dreadlord patron, Pact of the Blade</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_OTHERWORDLY_PATRON_DREADLORD</requirements>
+        <description>
+            <p>You can create a weapon forged from silver, with umbral runes etched into it, using your Pact of the
+                Blade feature. When a creature affected by your Curse of Gloom would hit you with an attack, you can use
+                your reaction to increase your AC against the attack by an amount equal to your warlock spellcasting
+                ability modifier. If the attack still hits, the attacker takes extra damage equal to half your warlock
+                level. The extra damage is the weapon's damage type.
+            </p>
+        </description>
+        <sheet>
+            <description>You can create a weapon forged from silver, with umbral runes etched into it, using your Pact
+                of the Blade feature. When a creature affected by your Curse of Gloom would hit you with an attack, you
+                can use your reaction to increase your AC against the attack by an amount equal to your warlock
+                spellcasting ability modifier. If the attack still hits, the attacker takes extra damage equal to half
+                your warlock level. The extra damage is the weapon's damage type.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Devil's Sight" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_DEVILS_SIGHT">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.</p>
+        </description>
+        <sheet>
+            <description>You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Dreadful Word" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_DREADFUL_WORD">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
+        <description>
+            <p>You can cast <em>confusion</em> once without using a warlock spell slot. You can't do so again until you
+                finish a long rest.
+            </p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_CONFUSION"/>
+            </div>
+        </description>
+        <sheet>
+            <description>You can cast confusion once without using a warlock spell slot. You can't do so again until you
+                finish a long rest.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_CONFUSION"/>
+        </rules>
+    </element>
+    <element name="Eldritch Armor" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_ARMOR">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Pact of the Blade</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+        <description>
+            <p>You can transform one magical or mundane armor into your pact armor by performing a special ritual while
+                touching the armor. You're always proficient in your pact armor. When using an action to summon it, you
+                can also choose to summon your pact weapon with the same action. You may use your warlock spellcasting
+                ability score instead of your Strength score for purposes of speed reduction and the usage of heavy
+                armor.
+            </p>
+        </description>
+        <sheet>
+            <description>You can transform one magical or mundane armor into your pact armor by performing a special
+                ritual while touching the armor. You're always proficient in your pact armor. When using an action to
+                summon it, you can also choose to summon your pact weapon with the same action. You may use your warlock
+                spellcasting ability score instead of your Strength score for purposes of speed reduction and the usage
+                of heavy armor.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Eldritch Mind" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_MIND">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Pact of the Tome feature</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_TOME</requirements>
+        <description>
+            <p>You have advantage on Constitution saving throws that you make to maintain your concentration on a
+                spell.
+            </p>
+        </description>
+        <sheet>
+            <description>You have advantage on Constitution saving throws that you make to maintain your concentration
+                on a spell.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Eldritch Sight" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SIGHT">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can cast <em>detect magic</em> at will, without expending a spell slot.
+            </p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_DETECT_MAGIC"/>
+            </div>
+        </description>
+        <sheet>
+            <description>You can cast detect magic at will, without expending a spell slot.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC"/>
+        </rules>
+    </element>
+    <element name="Eldritch Spear" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ELDRITCH_SPEAR">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>When you cast a warlock cantrip that requires a ranged spell attack, its range is increased to 300
+                feet.
+            </p>
+        </description>
+        <sheet>
+            <description>When you cast a warlock cantrip that requires a ranged spell attack, its range is increased to
+                300 feet.
+            </description>
+        </sheet>
+    </element>
+
+    <element name="Eyes of the Rune Keeper" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_EYES_OF_THE_RUNE_KEEPER">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can read all writing.</p>
+        </description>
+        <sheet>
+            <description>You can read all writing.</description>
+        </sheet>
+    </element>
+
+    <element name="Far Scribe" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_FAR_SCRIBE">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level, Pact of the Tome feature</prerequisite>
+        <requirements>[level:5],ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_TOME</requirements>
+        <description>
+            <p>A new page appears in your Book of Erudition. With your permission, a creature can use its action to
+                write its name on that page, which can contain a number of names equal to your warlock spellcasting
+                ability modifier (minimum of 1). You can cast the sending spell, targeting a creature whose name is on
+                the page, without using a spell slot and without using material components. To do so, you must write the
+                message on the page. The target hears the message in their mind, and if the target replies, their
+                message appears on the page, rather than in your mind. The writing disappears after 1 minute. As an
+                action, you can magically erase a name on the page by touching the name on it.
+            </p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_SENDING"/>
+            </div>
+        </description>
+        <sheet>
+            <description>A new page appears in your Book of Erudition. With your permission, a creature can use its
+                action to write its name on that page, which can contain a number of names equal to your warlock
+                spellcasting ability modifier (minimum of 1). You can cast the sending spell, targeting a creature whose
+                name is on the page, without using a spell slot and without using material components. To do so, you
+                must write the message on the page. The target hears the message in their mind, and if the target
+                replies, their message appears on the page, rather than in your mind. The writing disappears after 1
+                minute. As an action, you can magically erase a name on the page by touching the name on it.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_SENDING"/>
+        </rules>
+    </element>
+
+    <element name="Vigor of the Lost" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_VIGOR_OF_THE_LOST">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can cast <em>false life</em> on yourself at will as a 1st-level spell, without expending a spell slot
+                or material components. Additionally, when you fail a death saving throw, you can instead choose to
+                succeed. If you do, you lose the benefits of this invocation until you finish a long rest.
+            </p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_FALSE_LIFE"/>
+            </div>
+        </description>
+        <sheet>
+            <description>You can cast false life on yourself at will as a 1st-level spell, without expending a spell
+                slot or material components. Additionally, when you fail a death saving throw, you can instead choose to
+                succeed. If you do, you lose the benefits of this invocation until you finish a long rest.
+            </description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_FALSE_LIFE"/>
+        </rules>
+    </element>
+
+    <element name="Gaze of Two Minds" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_GAZE_OF_TWO_MINDS">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can use your action to touch a willing humanoid and perceive through its senses until the end of your
+                next turn. As long as the creature is on the same plane of existence as you, you can use your action on
+                subsequent turns to maintain this connection, extending the duration until the end of your next turn.
+                While perceiving through the other creature's senses, you benefit from any special senses possessed by
+                that creature, and you are blinded and deafened to your own surroundings.
+            </p>
+        </description>
+        <sheet>
+            <description>You can use your action to touch a willing humanoid and perceive through its senses until the
+                end of your next turn. As long as the creature is on the same plane of existence as you, you can use
+                your action on subsequent turns to maintain this connection, extending the duration until the end of
+                your next turn. While perceiving through the other creature's senses, you benefit from any special
+                senses possessed by that creature, and you are blinded and deafened to your own surroundings.
+            </description>
+        </sheet>
+    </element>
+    <element name="Flaywind Blade" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_FLAYWIND_BLADE">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Radiant Storm Patron, Pact of the Blade</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_OTHERWORDLY_PATRON_RADIANT_STORM,
+            ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE
+        </requirements>
+        <description>
+            <p>When you create a weapon with your Pact of the Blade feature, you can infuse it with silver mist and form
+                it from stormscarred steel. You can choose to have this weapon deal lightning or thunder damage. When a
+                ranged attack misses you while you are wielding this weapon, you can use your reaction to move up to 15
+                feet without provoking opportunity attacks, and you can move through spaces occupied by hostile
+                creatures without spending additional movement.
+            </p>
+        </description>
+        <sheet>
+            <description>When you create a weapon with your Pact of the Blade feature, you can infuse it with silver
+                mist and form it from stormscarred steel. You can choose to have this weapon deal lightning or thunder
+                damage. When a ranged attack misses you while you are wielding this weapon, you can use your reaction to
+                move up to 15 feet without provoking opportunity attacks, and you can move through spaces occupied by
+                hostile creatures without spending additional movement.
+            </description>
+        </sheet>
+    </element>
+    <element name="Ghostly Gaze" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_GHOSTLY_GAZE">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
+        <description>
+            <p>As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range,
+                you have darkvision if you don't already have it. This special sight lasts for 1 minute or until your
+                concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as
+                ghostly, transparent images.
+            </p>
+            <p>Once you use this invocation, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet>
+            <description>As an action, you gain the ability to see through solid objects to a range of 30 feet. Within
+                that range, you have darkvision if you don't already have it. This special sight lasts for 1 minute or
+                until your concentration ends (as if you were concentrating on a spell). During that time, you perceive
+                objects as ghostly, transparent images.
+            </description>
+        </sheet>
+    </element>
+    <element name="Gift of the Depths" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_DEPTHS">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>You can breathe underwater, and you gain a swimming speed equal to your walking speed.</p>
+            <p>You can also cast <em>water breathing</em> once without expending a spell slot. You regain the ability to
+                do so when you finish a long rest.
+            </p>
+        </description>
+        <sheet>
+            <description>You can breathe underwater, and you gain a swimming speed equal to your walking speed. You can
+                also cast water breathing once without expending a spell slot. You regain the ability to do so when you
+                finish a long rest.
+            </description>
+        </sheet>
+    </element>
+    <element name="Gift of the Ever-Living Ones" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_EVER_LIVING_ONES">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Pact of the Chain</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_CHAIN</requirements>
+        <description>
+            <p>Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to
+                determine the hit points you regain as having rolled their maximum value for you.
+            </p>
+        </description>
+        <sheet>
+            <description>Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice
+                rolled to determine the hit points you regain as having rolled their maximum value for you.
+            </description>
+        </sheet>
+    </element>
+    <element name="Gift of the Protectors" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_GIFT_OF_THE_PROTECTORS">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>9th level, Pact of the Tome feature</prerequisite>
+        <requirements>[level:9],ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_TOME</requirements>
+        <description>
+            <p>A new page appears in your Book of Erudition. With your permission, a creature can use its action to
+                write its name on that page, which can contain a number of names equal to your warlock spellcasting
+                ability modifier (minimum of 1). When any creature whose name is on the page is reduced to 0 hit points
+                but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is
+                triggered, no creature can benefit from it until you finish a long rest. As an action, you can magically
+                erase a name on the page by touching the name on it.
+            </p>
+        </description>
+        <sheet>
+            <description>A new page appears in your Book of Erudition. With your permission, a creature can use its
+                action to write its name on that page, which can contain a number of names equal to your warlock
+                spellcasting ability modifier (minimum of 1). When any creature whose name is on the page is reduced to
+                0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this
+                magic is triggered, no creature can benefit from it until you finish a long rest. As an action, you can
+                magically erase a name on the page by touching the name on it.
+            </description>
+        </sheet>
+    </element>
+    <element name="Grasp of Hadar" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_GRASP_OF_HADAR">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>Once on each of your turns when you hit a creature with a warlock cantrip that requires a ranged spell
+                attack, you can move that creature in a straight line 10 feet closer to you.
+            </p>
+        </description>
+        <sheet>
+            <description>Once on each of your turns when you hit a creature with a warlock cantrip that requires a
+                ranged spell attack, you can move that creature in a straight line 10 feet closer to you.
+            </description>
+        </sheet>
+    </element>
+    <element name="Otherworldly Training" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_OTHERWORLDLY_TRAINING">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level, Pact of the Blade</prerequisite>
+        <requirements>[level:5],ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+        <description>
+            <p>You gain one fighting style from the Fighter class. At the end of a long rest, you can change the
+                fighting style you know with another available fighting style.
+            </p>
+        </description>
+        <sheet>
+            <description>You gain one fighting style from the Fighter class. At the end of a long rest, you can change
+                the fighting style you know with another available fighting style.
+            </description>
+        </sheet>
+    </element>
+    <element name="Touch of the Ancient One" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_TOUCH_OF_THE_ANCIENT_ONE">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Great Old One, Pact of the Blade</prerequisite>
+        <requirements>
+            ID_HB_WR_CLASS_FEATURE_PATRON_OTHERWORLDLY_PATRON_THE_GREAT_OLD_ONE,ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE
+        </requirements>
+        <description>
+            <p>When you create a weapon using your Pact of the Blade feature, you can make it from aberrant flesh,
+                twitching with eyes and mouths. You can choose to deal psychic damage with this weapon. Once per turn,
+                you can cause your attacks to become mentally toxic. If you do so, the creature has disadvantage on the
+                next attack roll it makes before the end of its next turn. During the first round of combat, attacks
+                with this weapon deal extra psychic damage equal to your warlock spellcasting ability modifier plus half
+                your warlock level.
+            </p>
+            <p>Additionally, when you hit a creature with a weapon attack made with your pact weapon, you can glimpse
+                into its mind. You immediately learn if the creature is under any mind-influencing effects and what
+                those effects are, such as a geas spell, and learn the creature's greatest fears and desires. Once you
+                glimpse a creature's mind, you can't do so again until you finish a long rest.
+            </p>
+        </description>
+        <sheet>
+            <description>When you create a weapon using your Pact of the Blade feature, you can make it from aberrant
+                flesh, twitching with eyes and mouths. You can choose to deal psychic damage with this weapon. Once per
+                turn, you can cause your attacks to become mentally toxic. If you do so, the creature has disadvantage
+                on the next attack roll it makes before the end of its next turn. During the first round of combat,
+                attacks with this weapon deal extra psychic damage equal to your warlock spellcasting ability modifier
+                plus half your warlock level.
+            </description>
+            <description>Additionally, when you hit a creature with a weapon attack made with your pact weapon, you can
+                glimpse into its mind. You immediately learn if the creature is under any mind-influencing effects and
+                what those effects are, such as a geas spell, and learn the creature's greatest fears and desires. Once
+                you glimpse a creature's mind, you can't do so again until you finish a long rest.
+            </description>
+        </sheet>
+    </element>
+    <element name="Hide of Cinders" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_HIDE_OF_CINDERS">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Fiend patron, Pact of the Blade</prerequisite>
+        <requirements>
+            ID_HB_WR_CLASS_FEATURE_PATRON_OTHERWORLDLY_PATRON_THE_FIEND,ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE
+        </requirements>
+        <description>
+            <p>You can summon a coating of embers and ash to cover your skin, protecting you from harm. You can choose
+                to have your AC equal 10 + your Dexterity modifier + your warlock spellcasting ability modifier. If a
+                creature hits you with a melee attack while this armor is active, you can use your reaction to deal fire
+                damage to the creature equal to your warlock spellcasting ability modifier.
+            </p>
+        </description>
+        <sheet>
+            <description>You can summon a coating of embers and ash to cover your skin, protecting you from harm. You
+                can choose to have your AC equal 10 + your Dexterity modifier + your warlock spellcasting ability
+                modifier. If a creature hits you with a melee attack while this armor is active, you can use your
+                reaction to deal fire damage to the creature equal to your warlock spellcasting ability modifier.
+            </description>
+        </sheet>
+    </element>
+    <element name="Lance of Lethargy" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_LANCE_OF_LETHARGY">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>Once on each of your turns when you hit a creature with a warlock cantrip that requires a ranged spell
+                attack, you can reduce that creature's speed by 10 feet until the end of your next turn.
+            </p>
+        </description>
+        <sheet>
+            <description>Once on each of your turns when you hit a creature with a warlock cantrip that requires a
+                ranged spell attack, you can reduce that creature's speed by 10 feet until the end of your next turn.
+            </description>
+        </sheet>
+    </element>
+    <element name="Lifedrinker" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_LIFEDRINKER">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>12th level, Pact of the Blade</prerequisite>
+        <requirements>[level:12],ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+        <description>
+            <p>When you hit a creature with your pact weapon, the creature takes extra force damage equal to your
+                warlock spellcasting ability modifier (minimum of 1).
+            </p>
+        </description>
+        <sheet>
+            <description>When you hit a creature with your pact weapon, the creature takes extra force damage equal to
+                your warlock spellcasting ability modifier (minimum of 1).
+            </description>
+        </sheet>
+    </element>
+    <element name="Limitless Weapon" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_LIMITLESS_WEAPON">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Pact of the Blade</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE</requirements>
+        <description>
+            <p>While you have this invocation, you gain the ability to modify your pact weapon with greater ease. If
+                your pact weapon is an attuned magic weapon, rather than one you have created, you can shift its form to
+                any weapon you could normally create using your Pact of the Blade feature when you summon it.
+                Additionally, you can apply the benefits of any invocation that requires you to create your pact weapon,
+                such as Scorched Blade, as long as it is in the appropriate form to meet that invocation’s requirements.
+            </p>
+        </description>
+        <sheet>
+            <description>While you have this invocation, you gain the ability to modify your pact weapon with greater
+                ease. If your pact weapon is an attuned magic weapon, rather than one you have created, you can shift
+                its form to any weapon you could normally create using your Pact of the Blade feature when you summon
+                it. Additionally, you can apply the benefits of any invocation that requires you to create your pact
+                weapon, such as Scorched Blade, as long as it is in the appropriate form to meet that invocation’s
+                requirements.
+            </description>
+        </sheet>
+    </element>
+    <element name="Maddening Hex" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_MADDENING_HEX">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level, hex spell or a warlock feature that curses</prerequisite>
+        <requirements>[level:5],ID_PHB_SPELL_HEX</requirements>
+        <description>
+            <p>As a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a
+                warlock feature of yours, such as Curse of Gloom or Sign of Ill Omen. When you do so, you deal psychic
+                damage to the cursed target and each creature of your choice that you can see within 5 feet of it. The
+                psychic damage equals your warlock spellcasting ability modifier (minimum of 1 damage). To use this
+                invocation, you must be able to see the cursed target, and it must be within 30 feet of you.
+            </p>
+        </description>
+        <sheet>
+            <description>As a bonus action, you cause a psychic disturbance around the target cursed by your hex spell
+                or by a warlock feature of yours, such as Curse of Gloom or Sign of Ill Omen. When you do so, you deal
+                psychic damage to the cursed target and each creature of your choice that you can see within 5 feet of
+                it. The psychic damage equals your warlock spellcasting ability modifier (minimum of 1 damage). To use
+                this invocation, you must be able to see the cursed target, and it must be within 30 feet of you.
+            </description>
+        </sheet>
+    </element>
+    <element name="Mask of Many Faces" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_MASK_OF_MANY_FACES">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can cast disguise self at will, without expending a spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast disguise self at will, without expending a spell slot.</description>
+        </sheet>
+    </element>
+    <element name="Master of Myriad Forms" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTER_OF_MYRIAD_FORMS">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>15th level</prerequisite>
+        <requirements>[level:15]</requirements>
+        <description>
+            <p>You can cast alter self at will, without expending a spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast alter self at will, without expending a spell slot.</description>
+        </sheet>
+    </element>
+    <element name="Minions of Chaos" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_MINIONS_OF_CHAOS">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>You can cast conjure elemental once without using a warlock spell slot. You can't do so again until you
+                finish a long rest.
+            </p>
+        </description>
+        <sheet>
+            <description>You can cast conjure elemental once without using a warlock spell slot. You can't do so again
+                until you finish a long rest.
+            </description>
+        </sheet>
+    </element>
+    <element name="Mire the Mind" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_MIRE_THE_MIND">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>You can cast slow once without using a warlock spell slot. You can't do so again until you finish a long
+                rest.
+            </p>
+        </description>
+        <sheet>
+            <description>You can cast slow once without using a warlock spell slot. You can't do so again until you
+                finish a long rest.
+            </description>
+        </sheet>
+    </element>
+    <element name="Misty Visions" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_MISTY_VISIONS">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can cast silent image at will, without expending a spell slot or material components.</p>
+        </description>
+        <sheet>
+            <description>You can cast silent image at will, without expending a spell slot or material components.
+            </description>
+        </sheet>
+    </element>
+    <element name="One with Shadows" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ONE_WITH_SHADOWS">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>When you are in an area of dim light or darkness, you can use your action to become invisible until you
+                move or take an action or a reaction.
+            </p>
+        </description>
+        <sheet>
+            <description>When you are in an area of dim light or darkness, you can use your action to become invisible
+                until you move or take an action or a reaction.
+            </description>
+        </sheet>
+    </element>
+    <element name="Otherworldly Leap" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_OTHERWORLDLY_LEAP">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can cast jump on yourself at will, without expending a spell slot or material components.</p>
+        </description>
+        <sheet>
+            <description>You can cast jump on yourself at will, without expending a spell slot or material components.
+            </description>
+        </sheet>
+    </element>
+    <element name="Relentless Hex" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_RELENTLESS_HEX">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level, hex spell or a warlock feature that curses</prerequisite>
+        <requirements>[level:7],ID_PHB_SPELL_HEX</requirements>
+        <description>
+            <p>Your curse creates a temporary bond between you and your target. As a bonus action, you can magically
+                teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your hex
+                spell or by a warlock feature of yours, such as Dreadlord Curse or Sign of Ill Omen. To teleport in this
+                way, you must be able to see the cursed target.
+            </p>
+        </description>
+        <sheet>
+            <description>Your curse creates a temporary bond between you and your target. As a bonus action, you can
+                magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed
+                by your hex spell or by a warlock feature of yours, such as Dreadlord Curse or Sign of Ill Omen. To
+                teleport in this way, you must be able to see the cursed target.
+            </description>
+        </sheet>
+    </element>
+    <element name="Repelling Blast" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_REPELLING_BLAST">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>When you hit a creature with a warlock cantrip that requires a ranged spell attack, you can push the
+                creature up to 10 feet away from you in a straight line.
+            </p>
+        </description>
+        <sheet>
+            <description>When you hit a creature with a warlock cantrip that requires a ranged spell attack, you can
+                push the creature up to 10 feet away from you in a straight line.
+            </description>
+        </sheet>
+    </element>
+    <element name="Revealer of Secrets" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_REVEALER_OF_SECRETS">
+        <supports>Eldritch Invocation</supports>
+        <description>
+            <p>You can cast identify at will, without expending a spell slot or material components.</p>
+        </description>
+        <sheet>
+            <description>You can cast identify at will, without expending a spell slot or material components.
+            </description>
+        </sheet>
+    </element>
+    <element name="Scorched Weapon" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_SCORCHED_WEAPON">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Fiend patron, Pact of the Blade</prerequisite>
+        <requirements>ID_HB_WR_OTHERWORDLY_PATRON_FIEND,ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE
+        </requirements>
+        <description>
+            <p>You can create a wickedly barbed weapon made from embers and molten steel using your Pact of the Blade
+                feature. You can choose to have this weapon deal fire damage. Whenever a creature within your reach
+                takes damage directly due to hitting you with an attack, such as from the effect of the fire shield
+                spell, you can use your reaction to make an opportunity attack against your attacker using this weapon.
+                If the spell or feature that would deal damage to the attacker requires a reaction, such as the Hide of
+                Cinders invocation, you can make the opportunity attack as part of the same reaction. Once you do so,
+                you can’t do so again until you finish a short or long rest.
+            </p>
+        </description>
+        <sheet>
+            <description>You can create a wickedly barbed weapon made from embers and molten steel using your Pact of
+                the Blade feature. You can choose to have this weapon deal fire damage. Whenever a creature within your
+                reach takes damage directly due to hitting you with an attack, such as from the effect of the fire
+                shield spell, you can use your reaction to make an opportunity attack against your attacker using this
+                weapon. If the spell or feature that would deal damage to the attacker requires a reaction, such as the
+                Hide of Cinders invocation, you can make the opportunity attack as part of the same reaction. Once you
+                do so, you can’t do so again until you finish a short or long rest.
+            </description>
+        </sheet>
+    </element>
+    <element name="Sculptor of Flesh" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_SCULPTOR_OF_FLESH">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
+        <description>
+            <p>You can cast polymorph once without using a warlock spell slot. You can't do so again until you finish a
+                long rest. When you cast polymorph this way, you can allow the creature to retain its mental ability
+                scores. Additionally, you can use your action to change the form of the affected creature. If the new
+                form has more hit points than the current one, the creature's hit points remain at their current value.
+                Otherwise, you assume the beast's hit points as normal.
+            </p>
+        </description>
+        <sheet>
+            <description>You can cast polymorph once without using a warlock spell slot. You can't do so again until you
+                finish a long rest. When you cast polymorph this way, you can allow the creature to retain its mental
+                ability scores. Additionally, you can use your action to change the form of the affected creature. If
+                the new form has more hit points than the current one, the creature's hit points remain at their current
+                value. Otherwise, you assume the beast's hit points as normal.
+            </description>
+        </sheet>
+    </element>
+    <element name="Shroud of Shadow" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_SHROUD_OF_SHADOW">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>15th level</prerequisite>
+        <requirements>[level:15]</requirements>
+        <description>
+            <p>You can cast invisibility at will, without expending a spell slot.</p>
+        </description>
+        <sheet>
+            <description>You can cast invisibility at will, without expending a spell slot.</description>
+        </sheet>
+    </element>
+    <!-- Sign of Ill Omen -->
+    <element name="Sign of Ill Omen" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_SIGN_OF_ILL_OMEN">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>You can cast bestow curse once without using a spell slot, as if it was cast using one of your Pact Magic
+                spell slots. You can't do so again until you finish a long rest. When you obtain your Mystic Arcanum
+                feature, you can use it to cast bestow curse.
+            </p>
+            <p>When you cast the spell this way, you can force the target to make a Charisma saving throw instead of a
+                Wisdom saving throw. Additionally, you can sense the target's location and see them clearly for the
+                duration of the spell, even through full cover and magical obscuration.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can cast bestow curse once without using a spell slot, as if it was cast using one of your Pact
+                Magic spell slots. When you cast the spell this way, you can force the target to make a Charisma saving
+                throw instead of a Wisdom saving throw. Additionally, you can sense the target's location and see them
+                clearly for the duration of the spell, even through full cover and magical obscuration.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Sorrowfield -->
+    <element name="Sorrowfield" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_SORROWFIELD">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Dreadlord Patron, 9th Level</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_OTHERWORDLY_PATRON_DREADLORD,[level:9]</requirements>
+        <description>
+            <p>When you activate your Curse of Gloom, you may expend a warlock spell slot and target a number of
+                creatures equal to your warlock spellcasting ability modifier (minimum of one) you can see within 30
+                feet. Each creature is now affected by your Curse of Gloom. When you use this ability, you only regain
+                hit points from the first cursed creature that dies.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                When you activate your Curse of Gloom, you may expend a warlock spell slot and target a number of
+                creatures equal to your warlock spellcasting ability modifier (minimum of one) you can see within 30
+                feet. Each creature is now affected by your Curse of Gloom. When you use this ability, you only regain
+                hit points from the first cursed creature that dies.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- The Silver Tongue -->
+    <element name="The Silver Tongue" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_THE_SILVER_TONGUE">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Archfey patron, Pact of the Blade</prerequisite>
+        <requirements>
+            ID_HB_WR_CLASS_FEATURE_OTHERWORDLY_PATRON_ARCHFEY,ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_THE_BLADE
+        </requirements>
+        <description>
+            <p>You can create a weapon made of silver and bone using your Pact of the Blade feature. This weapon deals
+                psychic damage instead of its normal damage type. When you hit a creature with this weapon, you can
+                choose to deal no damage. The target must make a Wisdom saving throw against your warlock spell save DC.
+                If they fail, they are charmed or frightened by you until the start of your next turn and will not take
+                hostile actions against you, but may target your companions.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can create a weapon made of silver and bone using your Pact of the Blade feature. This weapon deals
+                psychic damage instead of its normal damage type. When you hit a creature with this weapon, you can
+                choose to deal no damage. The target must make a Wisdom saving throw against your warlock spell save DC.
+                If they fail, they are charmed or frightened by you until the start of your next turn and will not take
+                hostile actions against you, but may target your companions.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Thief of Five Fates -->
+    <element name="Thief of Five Fates" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_THIEF_OF_FIVE_FATES">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>You can cast bane once without using a warlock spell slot. You can't do so again until you finish a long
+                rest.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can cast bane once without using a warlock spell slot. You can't do so again until you finish a long
+                rest.
+            </description>
+        </sheet>
+    </element>
+    <!-- Tomb of Levistus -->
+    <element name="Tomb of Levistus" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_TOMB_OF_LEVISTUS">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your
+                next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering
+                damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your
+                speed is reduced to 0, and you are incapacitated. These effects, including any remaining temporary hit
+                points, all end when the ice melts.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your
+                next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering
+                damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your
+                speed is reduced to 0, and you are incapacitated. These effects, including any remaining temporary hit
+                points, all end when the ice melts.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Trickster's Escape -->
+    <element name="Trickster's Escape" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_TRICKSTERS_ESCAPE">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
+        <description>
+            <p>You can cast freedom of movement once on yourself without expending a spell slot. You regain the ability
+                to do so when you finish a long rest.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can cast freedom of movement once on yourself without expending a spell slot. You regain the ability
+                to do so when you finish a long rest.
+            </description>
+        </sheet>
+    </element>
+    <!-- Thirsting Steel -->
+    <element name="Thirsting Steel" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_THIRSTING_STEEL">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level, Pact of the Blade feature</prerequisite>
+        <requirements>[level:5], [pact:blade]</requirements>
+        <description>
+            <p>If you miss with an attack roll using your pact weapon on your turn, you can make an additional attack
+                with it. You can use this feature only once on each of your turns.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                If you miss with an attack roll using your pact weapon on your turn, you can make an additional attack
+                with it. You can use this feature only once on each of your turns.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Twinned Blades -->
+    <element name="Twinned Blades" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_TWINNED_BLADES">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Pact of the Blade</prerequisite>
+        <requirements>[pact:blade]</requirements>
+        <description>
+            <p>You gain access to a second pact weapon, and you can summon both whenever you would summon one of them.
+                When you engage in two-weapon fighting using both your pact weapons, you can add your ability modifier
+                to the damage of the bonus attack.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You gain access to a second pact weapon, and you can summon both whenever you would summon one of them.
+                When you engage in two-weapon fighting using both your pact weapons, you can add your ability modifier
+                to the damage of the bonus attack.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Visions of Distant Realms -->
+    <element name="Visions of Distant Realms" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_VISIONS_OF_DISTANT_REALMS">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>15th level</prerequisite>
+        <requirements>[level:15]</requirements>
+        <description>
+            <p>You can cast arcane eye at will, without expending a spell slot.</p>
+        </description>
+        <sheet>
+            <description>
+                You can cast arcane eye at will, without expending a spell slot.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Weapon of Dawn -->
+    <element name="Weapon of Dawn" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_WEAPON_OF_DAWN">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Celestial patron, Pact of the Blade feature</prerequisite>
+        <requirements>[patron:celestial], [pact:blade]</requirements>
+        <description>
+            <p>You can create a weapon from worked stone infused with golden metal using your Pact of the Blade feature.
+                At creation, you can choose to have this weapon deal radiant damage. A target hit by this weapon cannot
+                make opportunity attacks targeting creatures other than you until the start of your next turn.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can create a weapon from worked stone infused with golden metal using your Pact of the Blade
+                feature. At creation, you can choose to have this weapon deal radiant damage. A target hit by this
+                weapon cannot make opportunity attacks targeting creatures other than you until the start of your next
+                turn.
+            </description>
+        </sheet>
+    </element>
+    <!-- Weapon of the Lifetaker -->
+    <element name="Weapon of the Lifetaker" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_WEAPON_OF_THE_LIFETAKER">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Undying patron, Pact of the Blade feature</prerequisite>
+        <requirements>[patron:undying], [pact:blade]</requirements>
+        <description>
+            <p>You can create a weapon of polished bone and golden metal using your Pact of the Blade feature. This
+                weapon deals necrotic damage instead of its normal damage type. On a hit, you can cast inflict pain as a
+                bonus action using a warlock spell slot.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can create a weapon of polished bone and golden metal using your Pact of the Blade feature. This
+                weapon deals necrotic damage instead of its normal damage type. On a hit, you can cast inflict pain as a
+                bonus action using a warlock spell slot.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Whispers of the Grave -->
+    <element name="Whispers of the Grave" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_WHISPERS_OF_THE_GRAVE">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>You can cast speak with dead at will, without expending a spell slot.</p>
+        </description>
+        <sheet>
+            <description>
+                You can cast speak with dead at will, without expending a spell slot.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Witch Sight -->
+    <element name="Witch Sight" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_WITCH_SIGHT">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>15th level</prerequisite>
+        <requirements>[level:15]</requirements>
+        <description>
+            <p>You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic
+                while the creature is within 30 feet of you and within line of sight.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic
+                while the creature is within 30 feet of you and within line of sight.
+            </description>
+        </sheet>
+    </element>
+    <!-- Alter Overflow: Backblast -->
+    <element name="Alter Overflow: Backblast" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ALTER_OVERFLOW_BACKBLAST">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>When you hit a creature with an attack or cantrip and use your Eldritch Overflow feature, you can cause a
+                backblast of arcane power. Every creature in a 15-foot cone directly behind the creature you hit must
+                make a Dexterity saving throw. On a failure, they are treated as having been successfully affected by
+                the attack or cantrip, and take additional damage equal to your Eldritch Overflow damage die.
+            </p>
+            <p>You can only use one Alter Overflow effect on each of your turns. Once you use this invocation, you must
+                finish a short or long rest before you can do it again.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                When you hit a creature with an attack or cantrip and use your Eldritch Overflow feature, you can cause
+                a backblast of arcane power. Every creature in a 15-foot cone directly behind the creature you hit must
+                make a Dexterity saving throw. On a failure, they are treated as having been successfully affected by
+                the attack or cantrip, and take additional damage equal to your Eldritch Overflow damage die.
+                You can only use one Alter Overflow effect on each of your turns. Once you use this invocation, you must
+                finish a short or long rest before you can do it again.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Alter Overflow: Eldritch Beam -->
+    <element name="Alter Overflow: Eldritch Beam" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ALTER_OVERFLOW_ELDRITCH_BEAM">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>When you cast a damaging cantrip, you can release the spell's energy as a 5-foot wide, 100-foot long beam
+                of arcane power originating from you. Each creature in the area must make a Dexterity saving throw. On a
+                failure, they are treated as having been successfully affected by the cantrip, and take additional
+                damage equal to your Eldritch Overflow damage die.
+            </p>
+            <p>You can only use one Alter Overflow effect on each of your turns. Once you use this invocation, you must
+                finish a short or long rest before you can do it again.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                When you cast a damaging cantrip, you can release the spell's energy as a 5-foot wide, 100-foot long
+                beam of arcane power originating from you. Each creature in the area must make a Dexterity saving throw.
+                On a failure, they are treated as having been successfully affected by the cantrip, and take additional
+                damage equal to your Eldritch Overflow damage die.
+                You can only use one Alter Overflow effect on each of your turns. Once you use this invocation, you must
+                finish a short or long rest before you can do it again.
+            </description>
+        </sheet>
+    </element>
+    <!-- Revival of the Unhallowed -->
+    <element name="Revival of the Unhallowed" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_REVIVAL_OF_THE_UNHALLOWED">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>You can cast animate dead once using a warlock spell slot. When you cast this spell, you can animate dead
+                and reassert control over existing undead at the same time. You can't cast this spell this way again
+                until you finish a long rest.
+            </p>
+            <p>Additionally, when you cast animate dead you can forgo animating three undead to instead animate the
+                remains of one Large humanoid or giant. The resulting undead uses the statistics of a Minotaur Zombie if
+                you target bones, or an Ogre Zombie if you target a corpse. You treat this creature as three corpses for
+                the purpose of reasserting control over it.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can cast animate dead once using a warlock spell slot. When you cast this spell, you can animate
+                dead and reassert control over existing undead at the same time. You can't cast this spell this way
+                again until you finish a long rest.
+                Additionally, when you cast animate dead you can forgo animating three undead to instead animate the
+                remains of one Large humanoid or giant. The resulting undead uses the statistics of a Minotaur Zombie if
+                you target bones, or an Ogre Zombie if you target a corpse. You treat this creature as three corpses for
+                the purpose of reasserting control over it.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Alter Overflow: Split Beam -->
+    <element name="Alter Overflow: Split Beam" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ALTER_OVERFLOW_SPLIT_BEAM">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
+        <description>
+            <p>On your turn, you can use your bonus action and forgo the use of your Eldritch Overflow feature to
+                concentrate magical energy until the end of the turn. The next time you cast a cantrip in the duration,
+                you can cast the same cantrip one more time as part of the same action.
+            </p>
+            <p>You can only use one Alter Overflow effect on each of your turns.</p>
+        </description>
+        <sheet>
+            <description>
+                On your turn, you can use your bonus action and forgo the use of your Eldritch Overflow feature to
+                concentrate magical energy until the end of the turn. The next time you cast a cantrip in the duration,
+                you can cast the same cantrip one more time as part of the same action.
+                You can only use one Alter Overflow effect on each of your turns.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Alter Overflow: Perfected Arcana -->
+    <element name="Alter Overflow: Perfected Arcana" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ALTER_OVERFLOW_PERFECTED_ARCANA">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
+        <description>
+            <p>When you miss a creature with an attack that qualifies for your Eldritch Overflow feature, or a creature
+                succeeds on saving throw against one of your warlock cantrips, you can force the attack to hit or the
+                creature to fail the saving throw.
+            </p>
+            <p>You can only use one Alter Overflow effect on each of your turns. Once you use this invocation, you must
+                finish a short or long rest before you can do it again.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                When you miss a creature with an attack that qualifies for your Eldritch Overflow feature, or a creature
+                succeeds on saving throw against one of your warlock cantrips, you can force the attack to hit or the
+                creature to fail the saving throw.
+                You can only use one Alter Overflow effect on each of your turns. Once you use this invocation, you must
+                finish a short or long rest before you can do it again.
+            </description>
+        </sheet>
+    </element>
+    <!-- Grasp of the Fallen -->
+    <element name="Grasp of the Fallen" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_GRASP_OF_THE_FALLEN">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
+        <description>
+            <p>You can cast Maximilian's earthen grasp at will, without expending a spell slot or material components.
+                When a creature dies while in the hand's grasp, you can summon a second hand for the spell's duration.
+                When you use your action to direct the hand, you direct only one hand at a time. When you command the
+                hand to crush, you can command both hands at once.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can cast Maximilian's earthen grasp at will, without expending a spell slot or material components.
+                When a creature dies while in the hand's grasp, you can summon a second hand for the spell's duration.
+                When you use your action to direct the hand, you direct only one hand at a time. When you command the
+                hand to crush, you can command both hands at once.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Mastered Arcanum -->
+    <element name="Mastered Arcanum" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_MASTERED_ARCANUM">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>15th level</prerequisite>
+        <requirements>[level:15]</requirements>
+        <description>
+            <p>You can pick an additional spell for your Mystic Arcanum.</p>
+        </description>
+        <sheet>
+            <description>
+                You can pick an additional spell for your Mystic Arcanum.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Unearthly Alacrity -->
+    <element name="Unearthly Alacrity" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_UNEARTHLY_ALACRITY">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Pact of the Blade feature</prerequisite>
+        <requirements>ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_BLADE</requirements>
+        <description>
+            <p>You can take the Dash action as a bonus action. Additionally, your movement speed increases by 5 feet,
+                you learn the zephyr strike spell, and can cast it without expending a warlock spell slot once per long
+                rest.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can take the Dash action as a bonus action. Additionally, your movement speed increases by 5 feet,
+                you learn the zephyr strike spell, and can cast it without expending a warlock spell slot once per long
+                rest.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Moon-touched Armament -->
+    <element name="Moon-touched Armament" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_MOON_TOUCHED_ARMAMENT">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>Moon Patron, Pact of the Blade</prerequisite>
+        <requirements>[moonpatron,pactoftheblade]</requirements>
+        <description>
+            <p>You can create a weapon of polished mithral capped with a shining moonstone using your Pact of the Blade
+                feature. You can choose for this weapon to deal radiant or cold damage. While wielding this weapon, you
+                have advantage on initiative checks.
+            </p>
+            <p>Whenever you hit a creature with this weapon, you can unleash a blast of moonlight. The target and every
+                creature of your choice within 10 feet of it must succeed on a Dexterity saving throw against your
+                Warlock Spell Save DC. A target takes damage equal to the weapon's damage + your warlock spellcasting
+                ability modifier on a failed save, or half as much damage on a successful one. You can do this a number
+                of times equal to your warlock spellcasting ability modifier per short or long rest.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You can create a weapon of polished mithral capped with a shining moonstone using your Pact of the Blade
+                feature. You can choose for this weapon to deal radiant or cold damage. While wielding this weapon, you
+                have advantage on initiative checks.
+                Whenever you hit a creature with this weapon, you can unleash a blast of moonlight. The target and every
+                creature of your choice within 10 feet of it must succeed on a Dexterity saving throw against your
+                Warlock Spell Save DC. A target takes damage equal to the weapon's damage + your warlock spellcasting
+                ability modifier on a failed save, or half as much damage on a successful one. You can do this a number
+                of times equal to your warlock spellcasting ability modifier per short or long rest.
+            </description>
+        </sheet>
+    </element>
+    <!-- Scribe of Ancient Knowledge -->
+    <element name="Scribe of Ancient Knowledge" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_SCRIBE_OF_ANCIENT_KNOWLEDGE">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>5th level, Pact of the Tome</prerequisite>
+        <requirements>[level:5],ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_TOME</requirements>
+        <description>
+            <p>Instead of knowing spells, you now prepare a number of spells equal to the Spells Known column of the
+                warlock table plus your warlock spellcasting ability modifier from the warlock spell list. A spell you
+                choose must be of a level no greater than what's shown in the Warlock table's Slot Level column for your
+                level. You can change any number of your prepared spells whenever you finish a long rest.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                Instead of knowing spells, you now prepare a number of spells equal to the Spells Known column of the
+                warlock table plus your warlock spellcasting ability modifier from the warlock spell list. A spell you
+                choose must be of a level no greater than what's shown in the Warlock table's Slot Level column for your
+                level. You can change any number of your prepared spells whenever you finish a long rest.
+            </description>
+        </sheet>
+    </element>
+
+    <!-- Bound By Blood -->
+    <element name="Bound By Blood" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_BOUND_BY_BLOOD">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level, Pact of the Chain</prerequisite>
+        <requirements>[level:7],ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_CHAIN</requirements>
+        <description>
+            <p>Whenever your companion is reduced to 0 hit points, you can spend one hit die to reduce your familiar to
+                1 hit point instead. Additionally, choose Strength, Dexterity, Constitution, Intelligence or Wisdom.
+                Whenever your companion is subjected to an effect that would allow it to make a saving throw of the
+                chosen ability score to take half damage, it instead takes no damage on a success and half damage on a
+                failure.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                Whenever your companion is reduced to 0 hit points, you can spend one hit die to reduce your familiar to
+                1 hit point instead. Additionally, choose Strength, Dexterity, Constitution, Intelligence or Wisdom.
+                Whenever your companion is subjected to an effect that would allow it to make a saving throw of the
+                chosen ability score to take half damage, it instead takes no damage on a success and half damage on a
+                failure.
+            </description>
+        </sheet>
+    </element>
+    <!-- Arcane Inscription -->
+    <element name="Arcane Inscription" type="Class Feature" source="Warlock Remastered"
+             id="ID_HB_WR_CLASS_FEATURE_ELDRITCH_INVOCATION_ARCANE_INSCRIPTION">
+        <supports>Eldritch Invocation</supports>
+        <prerequisite>7th level, Pact of the Tome</prerequisite>
+        <requirements>[level:7],ID_HB_WR_CLASS_FEATURE_PACT_BOON_PACT_OF_TOME</requirements>
+        <description>
+            <p>You learn the secrets of transferring spells, granting your allies powers beyond belief. You visibly
+                inscribe the flesh of the creature with a warlock spell of 1st level or higher that you know, expending
+                a spell slot appropriate to cast the spell. While the spell is inscribed, you cannot cast the inscribed
+                spell. During your turn, you can use your bonus action to force the creature to use its reaction to
+                immediately cast the spell in a manner of your choosing, selecting targets or effects as you desire. If
+                the creature can't cast the spell, your bonus action is wasted. The creature uses its Intelligence or
+                Charisma score (whichever is higher) as its spellcasting ability for this spell. Once the creature
+                successfully casts the spell, or after 1 week, the inscription vanishes. You can maintain a number of
+                inscriptions equal to your warlock spellcasting ability modifier (minimum 1) at a time. Inscribing
+                another beyond this limit causes an inscription of your choosing to vanish.
+            </p>
+        </description>
+        <sheet>
+            <description>
+                You learn the secrets of transferring spells, granting your allies powers beyond belief. You visibly
+                inscribe the flesh of the creature with a warlock spell of 1st level or higher that you know, expending
+                a spell slot appropriate to cast the spell. While the spell is inscribed, you cannot cast the inscribed
+                spell. During your turn, you can use your bonus action to force the creature to use its reaction to
+                immediately cast the spell in a manner of your choosing, selecting targets or effects as you desire. If
+                the creature can't cast the spell, your bonus action is wasted. The creature uses its Intelligence or
+                Charisma score (whichever is higher) as its spellcasting ability for this spell. Once the creature
+                successfully casts the spell, or after 1 week, the inscription vanishes. You can maintain a number of
+                inscriptions equal to your warlock spellcasting ability modifier (minimum 1) at a time. Inscribing
+                another beyond this limit causes an inscription of your choosing to vanish.
+            </description>
+        </sheet>
+    </element>
+</elements>
